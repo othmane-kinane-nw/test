@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker)" ]; then
   exit 1
 fi
 
-domains=(back-office.bkam.nw.tools)
+domains=(bkam-usagers.northeurope.cloudapp.azure.com)
 rsa_key_size=4096
 data_path="./data/certbot"
 email="project.bkam.account@nimbleways.com" # Adding a valid address is strongly recommended
